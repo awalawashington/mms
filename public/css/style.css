@@ -1,0 +1,22 @@
+
+.main-sidebar{
+    height: auto !important;
+}
+.pre_load{
+    width:100vw;
+    height: 100vh;
+    overflow: hidden;
+    position:fixed;
+    top:0;
+    right: 0;
+    background-color: white;
+    z-index: 1000000;
+   
+}
+.pre_load img{
+    position:fixed; /* change this to fixed */
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;  
+}
